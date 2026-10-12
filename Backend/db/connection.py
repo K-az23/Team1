@@ -25,7 +25,7 @@ load_dotenv(dotenv_path=ENV_PATH)
 try:
     db_pool = pooling.MySQLConnectionPool(
         pool_name="executive_parlor_pool",
-        pool_size=5,
+        pool_size=3,
         pool_reset_session=True,
 
         host=os.getenv("DB_HOST"),
