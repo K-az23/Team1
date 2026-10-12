@@ -40,8 +40,8 @@ def forgot_password():
         "message": "Forgot password endpoint not implemented yet."
     }), 501
 
-# POST /api/auth/reset_password
-@auth_bp.route("/reset_password", methods=["POST"])
+# POST /api/auth/reset-password
+@auth_bp.route("/reset-password", methods=["POST"])
 def reset_password():
     return jsonify({
         "success": False,
