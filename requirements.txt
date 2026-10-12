@@ -1,5 +1,0 @@
-#run in terminal; "pip install -r requirements.txt" to install anything in here.
-
-Flask
-mysql-connector-python
-python-dotenv
